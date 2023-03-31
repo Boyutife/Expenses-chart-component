@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./main.css">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body class="container   bg-Cream flex flex-col items-center justify-center px-2 mx-auto h-screen" >
+      <header class="container flex items-center bg-Softred rounded-xl p-3 md:w-1/3">
+          <div class="container ">
+            <h3 class="text-white text-xs font-semibold">My balance</h3>
+            <h2 class="text-white font-bold text-2xl">$921.48</h2>
+          </div>
+          <div class="logo">
+            <img class="h-8" src="./images/logo.svg" alt="logo">
+          </div>
+      </header>
+      <main class="container bg-Verypaleorange mt-4 rounded-xl p-3 px-4 md:w-1/3">
+
+          <h2 class="font-bold text-Darkbrown text-3xl">Spending - Last 7 days </h2>
+          <div class="container flex h-60 mt-6  pb-8 border-b">
+
+            <!-- monday -->
+            <div class="day container flex flex-col  items-center justify-end ">
+              <div class="price bg-Darkbrown rounded-md p-1 my-1 w-14 ">
+                <h3 class="text-white">$52.36</h3>
+            </div>
+              <div class=" bar h-10 bg-Softred  rounded-md w-10 "></div>
+              <h4 class="">mon</h4>
+            </div>
+            <!-- tuesday -->
+            <div class="day container flex flex-col  items-center justify-end ">
+              <div class="price bg-Darkbrown rounded-md p-1 my-1 w-14 ">
+                <h3 class="text-white">$52.36</h3>
+            </div>
+              <div class=" bar h-20 bg-Softred  rounded-md w-10 "></div>
+              <h4 class="">tue</h4>
+            </div>
+            <!-- wednesday -->
+            <div class="day container flex flex-col  items-center justify-end ">
+              <div class=" price  bg-Darkbrown rounded-md p-1 my-1 w-14 ">
+                <h3 class="text-white">$52.36</h3>
+            </div>
+              <div class=" bar h-36 bg-Cyan  rounded-md w-10 "></div>
+              <h4 class="">wed</h4>
+            </div>
+            <!-- thursday -->
+            <div class="day container flex flex-col  items-center justify-end ">
+              <div class="price bg-Darkbrown rounded-md p-1 my-1 w-14 ">
+                <h3 class="text-white">$31.07</h3>
+            </div>
+              <div class=" bar h-16 bg-Softred  rounded-md w-10 "></div>
+              <h4 class="">thu</h4>
+            </div>
+            <!-- friday -->
+            <div class="day container flex flex-col  items-center justify-end ">
+              <div class="price bg-Darkbrown rounded-md p-1 my-1 w-14 ">
+                <h3 class="text-white">$52.36</h3>
+            </div>
+              <div class=" bar h-12 bg-Softred  rounded-md w-10 "></div>
+              <h4 class="">fri</h4>
+            </div>
+            <!-- saturday -->
+            <div class=" day container flex flex-col  items-center justify-end ">
+              <div class="price bg-Darkbrown rounded-md p-1 my-1 w-14 ">
+                <h3 class="text-white">$52.36</h3>
+            </div>
+              <div class="bar h-28 bg-Softred  rounded-md w-10 "></div>
+              <h4 class="">sat</h4>
+            </div>
+            <!-- sunday -->
+            <div class="day container flex flex-col  items-center justify-end ">
+              <div class="price bg-Darkbrown rounded-md p-1 my-1 w-14 ">
+                <h3 class="text-white">$52.36</h3>
+            </div>
+              <div class=" bar h-14 bg-Softred  rounded-md w-10 "></div>
+              <h4 class="">sun</h4>
+            </div>
+          </div>
+          <!-- footer -->
+          <div class="container flex items-center  mt-8 p-3">
+            <div class="container">
+              <h3 class=" text-xs text-Mediumbrown font-semibold">Total this month</h3>
+              <h1 class=" font-bold text-Darkbrown text-3xl">$478.33</h1>
+            </div>
+            <div class="w-1/3 ">
+              <h3 class=" text-xs text-right font-semibold text-Darkbrown">+2.4%</h3>
+              <h5 class=" font-bold text-xs text-right text-Mediumbrown">from last month</h5>
+            </div>
+          </div>
+      </main>
+  <div class=" hidden attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

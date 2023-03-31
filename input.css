@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.day{
+  cursor: pointer;
+}
+
+.price{
+  display: none;
+}
+
+.day h4 {
+  color:  hsl(28, 10%, 53%);
+}
+
+.day:hover > .bar{
+  opacity: .75;
+}
+.day:hover > .price{
+  display: block;
+}
